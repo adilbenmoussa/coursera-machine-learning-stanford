@@ -1,0 +1,13 @@
+Training a Neural Network:
+
+- Randomly initialize the weights
+- Implement forward propagation to get hθ(x^i) for any x^i 
+- Implement the cost function
+- Implement backpropagation to compute partial derivatives
+- Use gradient checking to confirm that your backpropagation works. Then disable gradient checking.
+- Use gradient descent or a built-in optimization function to minimize the cost function with the weights in theta.
+
+When we perform forward and back propagation, we loop on every training example:
+for i = 1:m,
+   Perform forward propagation and backpropagation using example (x(i),y(i))
+   (Get activations a(l) and delta terms d(l) for l = 2,...,L

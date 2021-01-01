@@ -1,0 +1,2 @@
+-> Octave does not plot
+    -> run command `setenv("GNUTERM","qt")`
